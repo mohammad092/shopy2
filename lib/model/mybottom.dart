@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopy/drawer.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 
 
 class MyBAP2 extends StatefulWidget {
@@ -46,4 +46,3 @@ drawerC.toggle();
     );
   }
 }
-

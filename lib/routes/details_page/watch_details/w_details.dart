@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shopy/model/watch_model.dart';
-import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 import 'package:shopy/routes/details_page/watch_details/bottom.dart';
 import 'package:shopy/routes/details_page/watch_details/top.dart';
 
@@ -9,7 +8,6 @@ class WatchDetails extends StatelessWidget {
   const WatchDetails({Key key, this.watch}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    FlutterStatusbarcolor.setStatusBarColor(watch.bgcolor);
 
     return Scaffold(
       backgroundColor: watch.bgcolor,

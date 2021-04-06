@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
-import 'package:shopy/routes/product/functions/tabbar.dart';
+import 'package:shopy/model/colors.dart';
+import 'package:shopy/routes/product/functions/shoes_functions/tabbar.dart';
 import 'package:shopy/drawer.dart';
-import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 
 class ZoomProduct extends StatefulWidget {
   @override
@@ -12,10 +11,10 @@ class ZoomProduct extends StatefulWidget {
 class _ZoomProductState extends State<ZoomProduct> {
   @override
   Widget build(BuildContext context) {
-    FlutterStatusbarcolor.setStatusBarColor(darkColor);
     return Scaffold(
               appBar: AppBar(
           backgroundColor: darkColor,
+          brightness: Brightness.dark,
           elevation: 0,
           toolbarHeight: 37,
           leading: IconButton(

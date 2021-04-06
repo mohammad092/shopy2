@@ -1,4 +1,4 @@
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 import 'package:flutter/material.dart';
 
 class MySmooth extends StatefulWidget {

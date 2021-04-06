@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopy/model/mycard.dart';
 import 'package:shopy/routes/details_page/details.dart';
-import 'package:shopy/routes/product/functions/mycard.dart';
+import 'package:shopy/routes/product/functions/shoes_functions/mycard.dart';
   
 
 

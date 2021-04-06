@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:shopy/routes/about_us/about_us.dart';
 import 'package:shopy/routes/offers/offers.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 import 'package:shopy/routes/product/product.dart';
 
 
@@ -48,7 +48,6 @@ class _MenuScreenState extends State<MenuScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: ColoredBox(
         color: darkColor,
         child: Padding(
@@ -120,7 +119,7 @@ class _MyWidgetState extends State<MyWidget> {
       padding: const EdgeInsets.all(8.0),
       child: TextButton(
         onPressed: () {
-          Navigator.push(
+          Navigator.pushReplacement(
             context,
             PageRouteBuilder(
                 transitionDuration: Duration(

@@ -14,15 +14,21 @@ class _TopScreenState extends State<TopScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: MediaQuery.of(context).size.height * 0.33,
-        width: MediaQuery.of(context).size.width,
-        color: widget.color,
-        child: Hero(
-            tag: widget.tag,
-            transitionOnUserGestures: true,
-            child: Image.asset(
-              widget.image,
-              fit: BoxFit.contain,
-            )));
+      height: MediaQuery
+          .of(context)
+          .size
+          .height * 0.3236,
+      width: MediaQuery
+          .of(context)
+          .size
+          .width,
+      color: widget.color,
+      child: Hero(
+        tag: widget.tag,
+        transitionOnUserGestures: true,
+        child: Image.asset(
+          widget.image,
+          fit: BoxFit.contain,
+        ),),);
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 import 'package:shopy/model/watch_model.dart';
 
 class MyCard extends StatelessWidget {

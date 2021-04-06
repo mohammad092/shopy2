@@ -30,7 +30,6 @@ dependencies:
   cupertino_icons: ^1.0.0
   flutter_zoom_drawer:
   smooth_page_indicator:
-  flutter_statusbarcolor:
   group_button:
   url_launcher:
   animate_icons:
@@ -38,6 +37,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/s1.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

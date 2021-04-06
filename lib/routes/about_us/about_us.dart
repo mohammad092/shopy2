@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_statusbarcolor/flutter_statusbarcolor.dart';
 import 'package:shopy/drawer.dart';
 import 'package:shopy/model/mybottom.dart';
 import 'package:shopy/routes/about_us/functions/info.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 String twitter = "https://twitter.com/kaser39678172";
@@ -25,7 +24,6 @@ class _ZoomAboutState extends State<ZoomAbout> {
 
   @override
   Widget build(BuildContext context) {
-    FlutterStatusbarcolor.setStatusBarColor(darkColor);
 
     return CustomZoom(
       child: AboutUs(),
@@ -50,8 +48,10 @@ class _AboutUsState extends State<AboutUs> {
           },
         ),
         backgroundColor: s1bg,
+        
         toolbarHeight: 40,
         elevation: 0,
+        brightness: Brightness.dark,
         centerTitle: true,
         title: Text('Profile'),
       ),

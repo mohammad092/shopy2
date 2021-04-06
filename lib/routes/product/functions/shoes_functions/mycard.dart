@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopy/model/mycard.dart';
-import 'package:shopy/routes/product/functions/colors.dart';
+import 'package:shopy/model/colors.dart';
 
 class MyCard extends StatelessWidget {
   final Product product;
